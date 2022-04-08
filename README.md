@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Challenge Screenshot](./huddle-landing-page-screenshot.jpg)
+![Challenge Screenshot](./huddle-landing-page-screenshot.png)
 
 ### Links
 
