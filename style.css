@@ -29,53 +29,53 @@ body {
     background-size: contain;
 }
 
-main {
+.huddle__main {
     display: flex;
     flex-direction: column;
 }
 
-main, header {
+.huddle__main, .huddle__header {
     margin: 0 auto;
     max-width: 400px;
     width: 100%;
 }
 
-header img {
+.huddle__header__img {
     display: block;
     height: 90px;
     margin: 0 0 15% 12%;
     width: 120px;
 }
 
-main > img {
+.huddle__main__img {
     display: block;
     height: 200px;
     margin: 0 auto 15%;
     width: 300px;
 }
 
-h1, p {
+.huddle__main__title, .huddle__main__text {
     color: var(--white);
     font-family: var(--ff-poppins);
 }
 
-h1, p {
+.huddle__main__title, .huddle__main__text {
     text-align: center;
 }
 
-h1 {
+.huddle__main__title {
     font-size: var(--fs-large);
     margin: 0 auto 10%;
     width: 65%;
 }
 
-p {
+.huddle__main__text {
     font-size: var(--fs-small);
     margin: 0 auto 10%;
     width: 75%;
 }
 
-button {
+.huddle__main__btn {
     background-color: var(--white);
     border: none;
     border-radius: 25px;
@@ -89,18 +89,18 @@ button {
     width: 250px;
 }
 
-button:hover {
+.huddle__main__btn:hover {
     background-color: var(--soft-magenta);
 }
 
-footer {
+.huddle__footer {
     display: flex;
     gap: 20px;
     justify-content: center;
     margin: 80px 0 0;
 }
 
-footer ion-icon {
+.huddle__footer__icon {
     border: 2px solid var(--white);
     border-radius: 50%;
     color: var(--white);
@@ -108,7 +108,7 @@ footer ion-icon {
     padding: 8px;
 }
 
-footer ion-icon:active {
+.huddle__footer__icon:active {
     border-color: var(--soft-magenta);
     color: var(--soft-magenta);
 }
@@ -120,54 +120,54 @@ footer ion-icon:active {
         background-position: 0 0;
     }
 
-    main {
+    .huddle__main {
         flex-direction: row;
         justify-content: space-between;
         height: 400px;
     }
 
-    section {
+    .huddle__main__body {
         margin: 0 0 0 30px;
     }
 
-    header {
+    .huddle__header {
         margin: 0 auto 40px;
     }
 
-    main, header {
+    .huddle__main, .huddle__header {
         max-width: 1200px;
     }
 
-    header img {
+    .huddle__header__img {
         margin: 0;
     }
     
-    main > img {
+    .huddle__main__img {
         height: 400px;
         margin: 0 auto 5%;
         width: 700px;
     }
 
-    h1 {
+    .huddle__main__title {
         margin: 0 0 5%;
         width: 60%;
     }
     
-    p {
+    .huddle__main__text {
         margin: 0 0 5%;
         width: 72%;
     }
 
-    h1, p {
+    .huddle__main__title, .huddle__main__text {
         text-align: unset;
     }
 
-    button {
+    .huddle__main__btn {
         margin: 0;
         width: 150px;
     }
 
-    footer {
+    .huddle__footer {
         display: flex;
         justify-content: end;
         margin: 0;
